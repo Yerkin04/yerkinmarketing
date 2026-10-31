@@ -3,303 +3,324 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Лидо — реклама и контент, после которых пишут в WhatsApp</title>
-<meta name="description" content="Таргет в Instagram и TikTok, Reels и Kaspi для бизнеса в Казахстане. Считаем заявки, а не лайки.">
+<title>NATSTROY — натяжные потолки премиум-класса в Астане и Актобе</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Натяжные потолки с современным освещением. 11 лет опыта, 9 бригад, 2 года гарантии. Астана и Актобе.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;700;800&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#f3f4f1; --card:#ffffff; --ink:#121316; --mute:#62656d; --line:#e1e3de;
-  --g:#14d36f; --gd:#07803f; --dark:#101214; --dk-ink:#f2f4f1;
+  --bg:#ffffff; --card:#ffffff; --ink:#1c1214; --mute:#6a5a5c; --line:#eddcd8;
+  --acc:#750c1a; --acc-ink:#fff; --glow:#ffd28a; --cu:#c86545; --dark:#2a0a10; --dk-ink:#f2f3f5;
   --f:"Onest",system-ui,Arial,sans-serif;
   box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px); color-scheme:light;
 }
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d0f10;--card:#16191b;--ink:#f2f4f1;--mute:#9aa09c;--line:#262a2d;--gd:#14d36f;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#0d0f10;--card:#16191b;--ink:#f2f4f1;--mute:#9aa09c;--line:#262a2d;--gd:#14d36f;color-scheme:dark}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b0d10;--card:#15181c;--ink:#f2f3f5;--mute:#9aa0a9;--line:#262a30;--acc:#e48a5e;--acc-ink:#1a0c05;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0b0d10;--card:#15181c;--ink:#f2f3f5;--mute:#9aa0a9;--line:#262a30;--acc:#e48a5e;--acc-ink:#1a0c05;color-scheme:dark}
 *,*::before,*::after{box-sizing:inherit}
-html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 76px)}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 110px)}
 body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.55 var(--f);-webkit-font-smoothing:antialiased}
-body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:60}
-a{color:inherit}p{margin:0}
-h1,h2,h3{margin:0;font-weight:800;letter-spacing:-.03em;line-height:1.05}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:#fff;z-index:70}
+p{margin:0}a{color:inherit}
+h1,h2,h3{margin:0;font-weight:800;letter-spacing:-.03em;line-height:1.08}
 .wrap{width:min(1180px,100% - 40px);margin-inline:auto}
-:focus-visible{outline:3px solid var(--g);outline-offset:3px;border-radius:8px}
+:focus-visible{outline:3px solid var(--acc);outline-offset:3px;border-radius:8px}
 .btn{display:inline-flex;align-items:center;justify-content:center;padding:16px 28px;border-radius:14px;font:700 16px var(--f);text-decoration:none;border:0;cursor:pointer;transition:transform .15s,box-shadow .15s}
 .btn:hover{transform:translateY(-2px)}
-.btn-g{background:var(--g);color:#05200f}
-.btn-g:hover{box-shadow:0 10px 30px rgba(20,211,111,.4)}
-.btn-k{background:var(--ink);color:var(--bg)}
-.btn-o{border:2px solid var(--ink);background:transparent}
+.btn-a{background:var(--acc);color:var(--acc-ink)}
+.btn-a:hover{box-shadow:0 10px 30px color-mix(in srgb,var(--acc) 45%,transparent)}
+.btn-o{border:2px solid currentColor;background:transparent}
 
-header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
-.nav{height:68px;display:flex;align-items:center;justify-content:space-between;gap:20px}
-.logo{font-weight:800;font-size:22px;text-decoration:none;letter-spacing:-.04em}
-.logo i{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--g);margin-left:3px}
-nav ul{display:flex;gap:28px;list-style:none;margin:0;padding:0;font-weight:500;font-size:15px}
-nav a{text-decoration:none;color:var(--mute)}nav a:hover{color:var(--ink)}
-.nav .btn{padding:11px 20px;font-size:14px;border-radius:11px}
+.ribbon{background:var(--cu);color:#fff;text-align:center;font-size:13.5px;font-weight:700;padding:8px 16px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:60;background:#fff;color:#14161a;border-bottom:1px solid #e8e2e2}
+.nav{height:66px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-weight:800;font-size:22px;letter-spacing:.06em;text-decoration:none}
+.logo b{color:var(--cu)}
+nav ul{display:flex;gap:26px;list-style:none;margin:0;padding:0;font-size:15px;font-weight:500}
+nav a{text-decoration:none;color:#5d626b}nav a:hover{color:#750c1a}
+header .btn{padding:10px 18px;font-size:14px;border-radius:11px;background:var(--cu);color:#fff}
 @media(max-width:860px){nav ul{display:none}}
 
-/* hero */
-.hero{padding:64px 0 56px}
-.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
-.hero h1{font-size:clamp(40px,6.4vw,84px)}
-.hero .lead{margin:26px 0 34px;font-size:19px;color:var(--mute);max-width:46ch}
+.hero{background:radial-gradient(120% 90% at 80% 0%,#8a1126,#3a0b14 66%);color:var(--dk-ink);padding:60px 0 72px}
+.hero .wrap{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+.hero h1{font-size:clamp(36px,5.6vw,70px)}
+.hero .lead{margin:22px 0 32px;font-size:19px;color:#aeb3bb;max-width:44ch}
 .hero .row{display:flex;flex-wrap:wrap;gap:12px}
-.live{display:inline-flex;align-items:center;gap:10px;font-size:14px;font-weight:700;padding:7px 14px;border:1px solid var(--line);border-radius:99px;background:var(--card);margin-bottom:26px}
-.live b{width:9px;height:9px;border-radius:50%;background:var(--g);animation:pulse 1.6s infinite}
-@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(20,211,111,.6)}100%{box-shadow:0 0 0 12px rgba(20,211,111,0)}}
-.dash{background:var(--dark);color:var(--dk-ink);border-radius:28px;padding:26px;position:relative;box-shadow:0 40px 80px -20px rgba(0,0,0,.45)}
-.dash .top{display:flex;justify-content:space-between;font-size:13px;color:#8d948f;font-weight:500}
-.big{font-size:clamp(56px,8vw,92px);font-weight:800;letter-spacing:-.05em;line-height:1;margin:14px 0 2px;color:var(--g)}
-.dash .cap{font-size:14px;color:#8d948f}
-.dash svg{width:100%;height:120px;margin:18px 0 8px;display:block}
-.path{fill:none;stroke:var(--g);stroke-width:3;stroke-linecap:round;stroke-dasharray:700;stroke-dashoffset:700;animation:draw 2.2s .3s ease-out forwards}
-.area{fill:url(#ag);opacity:0;animation:fadein 1s 1.6s forwards}
-@keyframes draw{to{stroke-dashoffset:0}}@keyframes fadein{to{opacity:1}}
-.kp{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.kp div{background:#1b1e20;border-radius:14px;padding:12px 14px}
-.kp b{display:block;font-size:22px;letter-spacing:-.03em}.kp span{font-size:12.5px;color:#8d948f}
-.toast{position:absolute;left:-28px;bottom:-26px;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:16px;padding:12px 16px;font-size:14px;box-shadow:0 20px 40px -10px rgba(0,0,0,.3);display:flex;gap:10px;align-items:center;opacity:0;transform:translateY(12px);transition:.5s}
-.toast.on{opacity:1;transform:none}
-.toast i{width:34px;height:34px;border-radius:50%;background:var(--g);display:grid;place-items:center;font-style:normal;color:#05200f}
-.toast small{display:block;color:var(--mute);font-size:12px}
-@media(max-width:940px){.hero .wrap{grid-template-columns:1fr}.toast{left:10px}}
-.demo{font-size:12.5px;color:var(--mute);margin-top:34px}
+.hero .btn-a{background:var(--cu);color:#fff}
+.hero .btn-o{color:#fff}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px;font-size:14px;color:#aeb3bb}
+.tags span{border:1px solid #6a3031;border-radius:99px;padding:5px 14px}
+.room{background:#1c0b0c;border:1px solid #5a2a2b;border-radius:28px;padding:16px}
+.room svg{width:100%;display:block;border-radius:18px}
+.ctl{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.ctl button{font:600 14px var(--f);color:#c9cdd3;background:#2e1213;border:1px solid #5a2a2b;border-radius:10px;padding:9px 14px;cursor:pointer}
+.ctl button[aria-pressed="true"]{background:var(--cu);color:#fff;border-color:var(--cu)}
+.rn{font-size:13px;color:#7d838c;margin-top:10px}
+.lg{fill:none;stroke:var(--glow);stroke-width:3;stroke-linecap:round;transition:opacity .5s}
+.lg.t{stroke:#fff;stroke-width:1.2}
+.g{opacity:0;transition:opacity .6s}
+[data-mode="lines"] .m-lines,[data-mode="contour"] .m-contour,[data-mode="spots"] .m-spots{opacity:1}
+.off .g,.off .lg{opacity:0!important}
+.spot{fill:#fff;transition:opacity .5s}
+@media(max-width:900px){.hero .wrap{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}html{scroll-behavior:auto}}
 
-/* marquee */
-.mq{border-block:1px solid var(--line);overflow:hidden;padding:18px 0;background:var(--card)}
-.mq div{display:flex;gap:44px;width:max-content;animation:mq 34s linear infinite;font-weight:700;font-size:20px;letter-spacing:-.02em;white-space:nowrap}
-.mq span::after{content:"●";color:var(--g);margin-left:44px;font-size:12px}
-@keyframes mq{to{transform:translateX(-50%)}}
-@media(prefers-reduced-motion:reduce){.mq div,.path,.live b{animation:none}.path{stroke-dashoffset:0}.area{opacity:1;animation:none}html{scroll-behavior:auto}}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-bottom:1px solid var(--line)}
+.stats div{padding:34px 20px;border-right:1px solid var(--line)}
+.stats div:last-child{border:0}
+.stats b{display:block;font-size:clamp(32px,4vw,48px);font-weight:800;letter-spacing:-.04em;color:var(--acc)}
+.stats span{color:var(--mute);font-size:15px}
+@media(max-width:700px){.stats{grid-template-columns:1fr 1fr}.stats div{border-bottom:1px solid var(--line)}}
 
-section{padding:96px 0}
-h2{font-size:clamp(32px,4.6vw,56px);max-width:16ch}
-.sub{color:var(--mute);margin-top:16px;max-width:54ch;font-size:18px}
-.bento{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:48px}
-.b{background:var(--card);border:1px solid var(--line);border-radius:26px;padding:30px;min-height:230px;display:flex;flex-direction:column;justify-content:space-between}
-.b h3{font-size:26px}.b p{color:var(--mute);margin-top:12px;font-size:16px}
-.b.w2{grid-column:span 2}
-.b.dk{background:var(--dark);color:var(--dk-ink);border-color:var(--dark)}.b.dk p{color:#9aa09c}
-.b.gr{background:var(--g);color:#05200f;border-color:var(--g)}.b.gr p{color:#0b3a1e}
-.b .em{font-size:44px;line-height:1}
-@media(max-width:940px){.bento{grid-template-columns:1fr 1fr}}
-@media(max-width:600px){.bento{grid-template-columns:1fr}.b.w2{grid-column:auto}section{padding:68px 0}}
+section{padding:88px 0}
+h2{font-size:clamp(30px,4.4vw,52px);max-width:18ch}
+.sub{color:var(--mute);margin-top:14px;max-width:54ch;font-size:18px}
+.grid{display:grid;gap:16px;margin-top:44px}
+.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+@media(max-width:940px){.g3{grid-template-columns:1fr 1fr}.g4{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.g3,.g4{grid-template-columns:1fr}section{padding:64px 0}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:28px}
+.card h3{font-size:22px}.card p{color:var(--mute);margin-top:10px;font-size:15.5px}
+.num{font-weight:800;color:var(--acc);font-size:15px;margin-bottom:10px;display:block}
 
-/* calc */
-.calc{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:48px}
-.cp,.cr{border-radius:26px;padding:34px}
-.cp{background:var(--card);border:1px solid var(--line);display:grid;gap:24px;align-content:start}
-.cr{background:var(--dark);color:var(--dk-ink)}
-label{font-weight:700;font-size:15px;display:flex;justify-content:space-between;margin-bottom:10px}
-label output{color:var(--gd)}
-input[type=range]{width:100%;accent-color:var(--g);height:28px}
-select,input[type=number],input[type=text],input[type=tel]{width:100%;padding:15px 16px;border-radius:12px;border:2px solid var(--line);background:var(--bg);color:var(--ink);font:500 16px var(--f)}
-select:focus,input:focus{border-color:var(--g);outline:none}
-.cr .l{color:#8d948f;font-size:14px}.cr .n{font-size:clamp(44px,6vw,72px);font-weight:800;letter-spacing:-.04em;color:var(--g);line-height:1.05;margin-bottom:22px}
-.cr .n.s{font-size:34px;color:var(--dk-ink)}
-.cr small{display:block;color:#8d948f;font-size:12.5px;margin-top:10px}
-@media(max-width:860px){.calc{grid-template-columns:1fr}}
+.shots{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:44px}
+.shot{aspect-ratio:4/3;border-radius:20px;position:relative;overflow:hidden;background:linear-gradient(160deg,#3d1517,#170708);display:flex;align-items:flex-end;padding:16px;color:#cfd3d9;font-size:14px;font-weight:600}
+.shot::before{content:"";position:absolute;inset:18% 12% auto;height:38%;border:2px solid var(--glow);border-radius:8px;box-shadow:0 0 28px var(--glow),inset 0 0 28px color-mix(in srgb,var(--glow) 40%,transparent);opacity:.75}
+.shot:nth-child(2)::before{border:0;border-top:2px solid var(--glow);inset:30% 10% auto;height:0;transform:rotate(-14deg)}
+.shot:nth-child(3)::before{border-radius:50%;inset:20% 28% auto}
+.shot:nth-child(5)::before{border:0;border-left:2px solid var(--glow);inset:14% 50% auto;height:50%}
+.shot span{position:relative}
+@media(max-width:700px){.shots{grid-template-columns:1fr 1fr}}
 
-/* process */
-.pr{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:52px;border-top:2px solid var(--ink)}
-.pr div{padding:26px 24px 0 0}
-.pr em{font-style:normal;font-weight:800;font-size:15px;color:var(--gd)}
-.pr h3{font-size:22px;margin:10px 0}.pr p{color:var(--mute);font-size:15.5px}
-@media(max-width:860px){.pr{grid-template-columns:1fr 1fr}}@media(max-width:560px){.pr{grid-template-columns:1fr}}
+.cta{background:var(--dark);color:var(--dk-ink);border-radius:32px;padding:56px;display:grid;grid-template-columns:.9fr 1.1fr;gap:44px;align-items:start}
+.cta h2{max-width:12ch}.cta p{color:#9ba1aa;margin-top:16px;font-size:18px}
+form{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+form .full{grid-column:1/-1}
+input,select{width:100%;padding:15px 16px;border-radius:12px;border:2px solid #5a2a2b;background:#2e1213;color:#f2f3f5;font:500 16px var(--f)}
+input:focus,select:focus{border-color:var(--glow);outline:none}
+label{display:block;font-size:13px;color:#8f959e;margin:0 0 6px 2px}
+.err{color:#ff9a9a;font-size:14px;min-height:18px}
+.cta .btn{background:var(--cu);color:#fff}
+@media(max-width:860px){.cta{grid-template-columns:1fr;padding:32px 22px}form{grid-template-columns:1fr}}
 
-/* price */
-.pl{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:48px}
-.pk{background:var(--card);border:1px solid var(--line);border-radius:26px;padding:32px;display:flex;flex-direction:column}
-.pk.hot{background:var(--dark);color:var(--dk-ink);border-color:var(--dark);transform:translateY(-10px)}
-.pk h3{font-size:24px}.pk .a{font-size:44px;font-weight:800;letter-spacing:-.04em;margin:16px 0 4px}.pk .a small{font-size:15px;font-weight:500;color:var(--mute);letter-spacing:0}
-.pk ul{list-style:none;padding:0;margin:22px 0 28px;display:grid;gap:11px;flex:1;font-size:16px}
-.pk li::before{content:"✓";color:var(--gd);font-weight:800;margin-right:10px}.pk.hot li::before{color:var(--g)}
-.bd{align-self:flex-start;background:var(--g);color:#05200f;font-weight:700;font-size:13px;padding:5px 12px;border-radius:99px;margin-bottom:12px}
-.pk.hot .btn{background:var(--g);color:#05200f}
-.nt{color:var(--mute);font-size:14.5px;margin-top:22px}
-@media(max-width:940px){.pl{grid-template-columns:1fr}.pk.hot{transform:none}}
-
-/* case */
-.cs{margin-top:48px;border:2px dashed var(--g);border-radius:26px;padding:36px;display:grid;grid-template-columns:1.2fr 1fr;gap:32px;align-items:center}
-.cs h3{font-size:26px}.cs .sub{font-size:16px}
-.ns{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
-.ns div{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px 10px;text-align:center}
-.ns b{display:block;font-size:30px;letter-spacing:-.04em;color:var(--gd)}.ns span{font-size:13px;color:var(--mute)}
-@media(max-width:860px){.cs{grid-template-columns:1fr}}
-
-details{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:0 26px;margin-top:12px}
-summary{cursor:pointer;font-weight:700;font-size:18px;padding:22px 0;list-style:none;display:flex;justify-content:space-between;gap:16px}
-summary::after{content:"+";font-size:26px;line-height:1;color:var(--gd);transition:transform .2s}
+details{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:0 24px;margin-top:12px}
+summary{cursor:pointer;font-weight:700;font-size:18px;padding:20px 0;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::after{content:"+";font-size:26px;line-height:1;color:var(--acc);transition:transform .2s}
 details[open] summary::after{transform:rotate(45deg)}
-details p{padding-bottom:22px;color:var(--mute)}
-
-.cta{background:var(--dark);color:var(--dk-ink);border-radius:34px;padding:60px;display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
-.cta h2{max-width:12ch}.cta p{color:#9aa09c;margin-top:16px;font-size:18px}
-.cta form{display:grid;gap:14px}
-.cta input,.cta select{background:#1b1e20;border-color:#2a2e31;color:var(--dk-ink)}
-.err{color:#ff8f8f;font-size:14px;min-height:18px}
-@media(max-width:860px){.cta{grid-template-columns:1fr;padding:34px 24px}}
-footer{padding:36px 0 64px;color:var(--mute);font-size:14.5px;border-top:1px solid var(--line)}
+details p{padding-bottom:20px;color:var(--mute)}
+footer{padding:36px 0 64px;color:var(--mute);font-size:14px;border-top:1px solid var(--line)}
 footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
-.fab{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:55;width:60px;height:60px;border-radius:50%;background:var(--g);display:grid;place-items:center;font-size:28px;text-decoration:none;box-shadow:0 10px 30px rgba(20,211,111,.5)}
+.fab{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:65;width:60px;height:60px;border-radius:50%;background:#25d366;display:grid;place-items:center;font-size:28px;text-decoration:none;box-shadow:0 10px 30px rgba(37,211,102,.45)}
+.hero .wrap{perspective:1400px}
+.room{transform-style:preserve-3d;transition:transform .2s ease-out;will-change:transform}
+.rv{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s}
+.rv.in{opacity:1;transform:none}
+.stats b i{font-style:normal}
+.ba{position:relative;margin-top:40px;aspect-ratio:16/8;border-radius:26px;overflow:hidden;border:1px solid var(--line);--p:50%;user-select:none;background:#222}
+.ba>svg{position:absolute;inset:0;width:100%;height:100%}
+.ba-a{position:absolute;inset:0;clip-path:inset(0 0 0 var(--p))}
+.ba-a svg{width:100%;height:100%;display:block}
+.ba input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0;z-index:3}
+.ba-h{position:absolute;top:0;bottom:0;left:var(--p);width:3px;background:#fff;transform:translateX(-1.5px);pointer-events:none;box-shadow:0 0 12px rgba(0,0,0,.4);z-index:2}
+.ba-h::after{content:"↔";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:46px;height:46px;border-radius:50%;background:var(--cu);color:#fff;display:grid;place-items:center;font-size:20px}
+.lbl{position:absolute;top:14px;padding:5px 12px;border-radius:99px;background:rgba(0,0,0,.6);color:#fff;font-size:13px;font-weight:700;z-index:2}
+.ba:focus-within{outline:3px solid var(--acc);outline-offset:3px}
+.rev p{font-size:17px;color:var(--ink);margin:0 0 18px}.rev b{font-size:15px;color:var(--mute);font-weight:600}
+.rev .q{font-size:44px;line-height:.8;color:var(--cu);font-weight:800;display:block;margin-bottom:10px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.chips span{background:var(--card);border:1px solid var(--line);border-radius:99px;padding:10px 18px;font-weight:600;font-size:15px}
+.chips span::before{content:"✓";color:var(--acc);margin-right:8px;font-weight:800}
+@media(max-width:600px){.ba{aspect-ratio:4/3}}
+.logo img{display:block;height:48px;width:auto;border-radius:8px}
+footer a{color:var(--acc);font-weight:600}
+.card{color:var(--ink);border-top:4px solid var(--cu)}
+h2::after{content:"";display:block;width:56px;height:5px;border-radius:3px;background:var(--cu);margin-top:16px}
+.hero .lead,.tags,.cta p{color:#f0d6d3}
+.rn{color:#dcb8b5}
+.tags span{border-color:#a8545c}
+.stats{background:#fbf3f1}
 </style>
 </head>
 <body>
+<div class="ribbon">Демо-макет сайта для NATSTROY · подготовил Еркин · yerkin.live</div>
 <header><div class="wrap nav">
-  <a class="logo" href="#top">лидо<i></i></a>
-  <nav aria-label="Меню"><ul><li><a href="#uslugi">Услуги</a></li><li><a href="#calc">Калькулятор</a></li><li><a href="#process">Процесс</a></li><li><a href="#tarify">Цены</a></li><li><a href="#faq">Вопросы</a></li></ul></nav>
-  <a class="btn btn-k" href="#zayavka">Бесплатный разбор</a>
+  <a class="logo" href="#top" aria-label="NATSTROY"><img src="data:image/jpeg;base64,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" alt="NATSTROY" width="78" height="48"></a>
+  <nav aria-label="Меню"><ul><li><a href="#vidy">Виды потолков</a></li><li><a href="#raboty">Работы</a></li><li><a href="#do-posle">До и после</a></li><li><a href="#etapy">Как работаем</a></li><li><a href="#otzyvy">Отзывы</a></li><li><a href="#faq">Вопросы</a></li></ul></nav>
+  <a class="btn" href="#zayavka">Рассчитать</a>
 </div></header>
 
 <main id="top">
 <div class="hero"><div class="wrap">
   <div>
-    <div class="live"><b></b>Сейчас берём 3 новых проекта</div>
-    <h1>Реклама, после которой пишут в WhatsApp</h1>
-    <p class="lead">Снимаем Reels, запускаем таргет в Instagram и TikTok, настраиваем Kaspi. Считаем заявки и их цену, а не лайки.</p>
-    <div class="row"><a class="btn btn-g" href="#zayavka">Получить разбор проекта</a><a class="btn btn-o" href="#calc">Посчитать заявки</a></div>
-    <p class="demo">Справа пример рекламного кабинета. Реальные цифры добавьте в блок кейса ниже.</p>
+    <h1>Натяжные потолки премиум-класса</h1>
+    <p class="lead">Современное освещение, аккуратный монтаж и гарантия 2 года. Работаем в Астане и Актобе.</p>
+    <div class="row"><a class="btn btn-a" href="#zayavka">Рассчитать потолок</a><a class="btn btn-o" href="#raboty">Смотреть работы</a></div>
+    <div class="tags"><span>Астана</span><span>Актобе</span><span>9 бригад</span></div>
   </div>
-  <div class="dash" aria-label="Пример рекламного кабинета">
-    <div class="top"><span>Заявки за 30 дней</span><span>Instagram · TikTok</span></div>
-    <div class="big" id="cnt">0</div>
-    <div class="cap">обращений в WhatsApp и Direct</div>
-    <svg viewBox="0 0 400 120" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="ag" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14d36f" stop-opacity=".35"/><stop offset="1" stop-color="#14d36f" stop-opacity="0"/></linearGradient></defs>
-    <path class="area" d="M0 105 C40 100 60 90 90 85 S150 70 180 62 S240 55 270 36 S340 24 400 8 L400 120 L0 120Z"/>
-    <path class="path" d="M0 105 C40 100 60 90 90 85 S150 70 180 62 S240 55 270 36 S340 24 400 8"/></svg>
-    <div class="kp"><div><b>1 150 ₸</b><span>цена заявки</span></div><div><b>×4,2</b><span>окупаемость рекламы</span></div></div>
-    <div class="toast" id="toast"><i>✓</i><div><span id="tt">Новая заявка</span><small id="ts">только что</small></div></div>
+  <div class="room">
+    <svg id="sv" data-mode="lines" viewBox="0 0 400 290" role="img" aria-label="Пример освещения потолка">
+      <defs><filter id="bl" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="5"/></filter>
+      <radialGradient id="rg" cx="50%" cy="40%" r="70%"><stop offset="0" stop-color="#3d1517"/><stop offset="1" stop-color="#150708"/></radialGradient></defs>
+      <rect width="400" height="290" fill="url(#rg)"/>
+      <g class="g m-lines">
+        <g filter="url(#bl)"><path class="lg" d="M30 40 L370 90"/><path class="lg" d="M30 120 L370 170"/><path class="lg" d="M30 200 L370 250"/></g>
+        <path class="lg t" d="M30 40 L370 90"/><path class="lg t" d="M30 120 L370 170"/><path class="lg t" d="M30 200 L370 250"/>
+      </g>
+      <g class="g m-contour">
+        <rect class="lg" x="40" y="35" width="320" height="220" rx="10" filter="url(#bl)"/><rect class="lg t" x="40" y="35" width="320" height="220" rx="10"/>
+        <rect class="lg" x="110" y="95" width="180" height="100" rx="8" opacity=".6" filter="url(#bl)"/><rect class="lg t" x="110" y="95" width="180" height="100" rx="8"/>
+      </g>
+      <g class="g m-spots" id="sp"></g>
+    </svg>
+    <div class="ctl" role="group" aria-label="Тип освещения">
+      <button type="button" data-m="lines" aria-pressed="true">Световые линии</button>
+      <button type="button" data-m="contour" aria-pressed="false">Парящий контур</button>
+      <button type="button" data-m="spots" aria-pressed="false">Споты</button>
+      <button type="button" id="pw" aria-pressed="true">Свет вкл</button>
+    </div>
+    <p class="rn">Примерьте освещение: переключайте варианты.</p>
   </div>
 </div></div>
 
-<div class="mq" aria-hidden="true"><div id="mq"></div></div>
+<div class="wrap stats">
+  <div><b><i data-n="11">11</i> лет</b><span>опыта</span></div>
+  <div><b><i data-n="9">9</i></b><span>опытных бригад</span></div>
+  <div><b><i data-n="2">2</i> года</b><span>гарантии</span></div>
+  <div><b>2 города</b><span>Астана и Актобе</span></div>
+</div>
 
-<section id="uslugi"><div class="wrap">
-  <h2>Что делаем для вашего бизнеса</h2>
-  <p class="sub">Берите всё сразу или одну услугу. Объём и цену фиксируем до старта.</p>
-  <div class="bento">
-    <div class="b w2 dk"><div class="em">🎯</div><div><h3>Таргет в Instagram и TikTok</h3><p>Оффер, креативы, запуск и оптимизация по цене заявки. Каждую неделю показываем, куда ушёл бюджет и что он принёс.</p></div></div>
-    <div class="b"><div class="em">🎬</div><div><h3>Reels и контент</h3><p>Сценарий, съёмка, монтаж. Ролики, которые продают.</p></div></div>
-    <div class="b gr"><div class="em">🛒</div><div><h3>Kaspi.kz</h3><p>Карточки, фото и реклама для селлеров.</p></div></div>
-    <div class="b"><div class="em">🔍</div><div><h3>Разбор и аудит</h3><p>Находим, где вы теряете клиентов.</p></div></div>
-    <div class="b w2"><div class="em">📲</div><div><h3>Заявки в WhatsApp и CRM</h3><p>Настраиваем быстрые ответы и учёт обращений, чтобы ни одна заявка не потерялась после клика.</p></div></div>
-    <div class="b"><div class="em">📊</div><div><h3>Отчёты</h3><p>Заявки, цена и следующий шаг. Раз в неделю.</p></div></div>
+<section id="vidy"><div class="wrap">
+  <h2>Какие потолки делаем</h2>
+  <p class="sub">Подберём вариант под комнату, свет и бюджет.</p>
+  <div class="grid g3">
+    <div class="card"><h3>Матовые и сатиновые</h3><p>Спокойная ровная поверхность, подходит для любой комнаты.</p></div>
+    <div class="card"><h3>Глянцевые</h3><p>Отражают свет и визуально поднимают потолок.</p></div>
+    <div class="card"><h3>Парящие</h3><p>Подсветка по контуру создаёт эффект потолка, который парит.</p></div>
+    <div class="card"><h3>Световые линии</h3><p>Линейные светильники, встроенные в потолок.</p></div>
+    <div class="card"><h3>Двухуровневые</h3><p>Для зонирования и сложных планировок.</p></div>
+    <div class="card"><h3>Под ваш проект</h3><p>Нестандартная форма и свет: покажите идею, подскажем, как реализовать.</p></div>
   </div>
 </div></section>
 
-<section id="calc" style="padding-top:0"><div class="wrap">
-  <h2>Сколько заявок вы можете получить</h2>
-  <p class="sub">Прикиньте результат под свой бюджет. Это ориентир по средним ценам заявки в Казахстане, точный расчёт сделаем после разбора.</p>
-  <div class="calc">
-    <div class="cp">
-      <div><label for="bud">Рекламный бюджет в месяц <output id="bo"></output></label><input id="bud" type="range" min="50000" max="1000000" step="10000" value="200000"></div>
-      <div><label for="nic">Ниша</label><select id="nic"><option value="1500">Услуги и ремонт</option><option value="1200">Бьюти и клиники</option><option value="700">Интернет-магазин</option><option value="1800">Образование и курсы</option><option value="2500">Недвижимость</option></select></div>
-      <div><label for="chk">Средний чек, ₸</label><input id="chk" type="number" value="25000" min="1000" step="1000"></div>
-    </div>
-    <div class="cr">
-      <div class="l">Заявок в месяц</div><div class="n" id="rl">0</div>
-      <div class="l">Продаж, если закрываете 25% заявок</div><div class="n s" id="rs">0</div>
-      <div class="l">Выручка</div><div class="n s" id="rr">0 ₸</div>
-      <small>Расчёт примерный. Результат зависит от оффера, цены и скорости ответа клиентам.</small>
-      <a class="btn btn-g" style="margin-top:20px" href="#zayavka">Получить точный расчёт</a>
-    </div>
+<section id="raboty" style="padding-top:0"><div class="wrap">
+  <h2>Наши работы</h2>
+  <p class="sub">Здесь будут фотографии реальных объектов компании.</p>
+  <div class="shots">
+    <div class="shot"><span>Гостиная · парящий контур</span></div>
+    <div class="shot"><span>Коридор · световая линия</span></div>
+    <div class="shot"><span>Спальня · споты</span></div>
+    <div class="shot"><span>Кухня · двухуровневый</span></div>
+    <div class="shot"><span>Холл · линейный свет</span></div>
+    <div class="shot"><span>Детская · матовый</span></div>
   </div>
 </div></section>
 
-<section id="process" style="background:var(--card)"><div class="wrap">
-  <h2>Как проходит работа</h2>
-  <div class="pr">
-    <div><em>Шаг 1</em><h3>Разбор</h3><p>Бесплатно смотрим продукт, аудиторию, конкурентов и текущую рекламу.</p></div>
-    <div><em>Шаг 2</em><h3>Договор</h3><p>Фиксируем объём работ, сроки, цену и показатели.</p></div>
-    <div><em>Шаг 3</em><h3>Запуск</h3><p>Снимаем креативы и запускаем рекламу. Заявки обычно через 3–7 дней.</p></div>
-    <div><em>Шаг 4</em><h3>Рост</h3><p>Раз в неделю отчёт. Усиливаем то, что приносит заявки.</p></div>
+<section id="do-posle" style="padding-top:0"><div class="wrap">
+  <h2>До и после</h2>
+  <p class="sub">Потяните ползунок и сравните. Здесь будут фото реальных объектов компании.</p>
+  <div class="ba" id="ba">
+    <svg viewBox="0 0 800 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><linearGradient id="bg1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d8d4d0"/><stop offset="1" stop-color="#b7b2ac"/></linearGradient></defs><rect width="800" height="400" fill="url(#bg1)"/><path d="M120 40 Q200 130 150 210 T260 360" fill="none" stroke="#9c958d" stroke-width="3"/><ellipse cx="580" cy="260" rx="90" ry="46" fill="#a9a29a" opacity=".5"/><line x1="400" y1="0" x2="400" y2="120" stroke="#444" stroke-width="3"/><circle cx="400" cy="148" r="26" fill="#fff6d8" stroke="#555" stroke-width="3"/></svg>
+    <span class="lbl" style="left:14px">До</span>
+    <div class="ba-a"><svg viewBox="0 0 800 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><radialGradient id="bg2" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#4d1a1c"/><stop offset="1" stop-color="#150708"/></radialGradient></defs><rect width="800" height="400" fill="url(#bg2)"/><g filter="url(#bl)"><rect class="lg" x="70" y="60" width="660" height="280" rx="14"/><path class="lg" d="M200 200 L600 200"/></g><rect class="lg t" x="70" y="60" width="660" height="280" rx="14"/><path class="lg t" d="M200 200 L600 200"/></svg><span class="lbl" style="right:14px">После</span></div>
+    <div class="ba-h" aria-hidden="true"></div>
+    <input type="range" id="bar" min="0" max="100" value="50" aria-label="Сравнение до и после">
   </div>
 </div></section>
 
-<section id="tarify"><div class="wrap">
-  <h2>Цены и пакеты</h2>
-  <p class="sub">Рекламный бюджет платите напрямую в кабинет Meta или TikTok, он не входит в стоимость.</p>
-  <div class="pl">
-    <div class="pk"><h3>Таргет</h3><div class="a">150 000 ₸ <small>/ мес</small></div><p>Заявки уже сейчас.</p><ul><li>Анализ ниши и оффер</li><li>5–6 рекламных креативов</li><li>Запуск Instagram или TikTok</li><li>Еженедельный отчёт</li></ul><a class="btn btn-o" href="#zayavka" data-pack="Таргет">Выбрать</a></div>
-    <div class="pk hot"><span class="bd">Выбирают чаще</span><h3>Контент + таргет</h3><div class="a">300 000 ₸ <small>/ мес</small></div><p style="color:#9aa09c">Контент и реклама на одну цель.</p><ul><li>12 Reels и 8 постов в месяц</li><li>Сценарии, съёмка, монтаж</li><li>Таргет Instagram и TikTok</li><li>Оптимизация по цене заявки</li></ul><a class="btn" href="#zayavka" data-pack="Контент + таргет">Выбрать</a></div>
-    <div class="pk"><h3>Kaspi старт</h3><div class="a">120 000 ₸ <small>разово</small></div><p>Для селлеров на Kaspi.</p><ul><li>До 10 карточек товара</li><li>Фото, описания, ключевые слова</li><li>Цены и акции</li><li>План рекламы внутри Kaspi</li></ul><a class="btn btn-o" href="#zayavka" data-pack="Kaspi старт">Выбрать</a></div>
+<section id="etapy" style="background:linear-gradient(160deg,#750c1a,#3a0b14);color:#fff"><div class="wrap">
+  <h2>Как мы работаем</h2>
+  <div class="grid g4">
+    <div class="card" style="background:var(--bg)"><span class="num">01</span><h3>Заявка</h3><p>Пишете в WhatsApp или оставляете форму ниже.</p></div>
+    <div class="card" style="background:var(--bg)"><span class="num">02</span><h3>Замер и расчёт</h3><p>Считаем стоимость по вашему помещению и выбранному свету.</p></div>
+    <div class="card" style="background:var(--bg)"><span class="num">03</span><h3>Монтаж</h3><p>Работает опытная бригада, аккуратно и чисто.</p></div>
+    <div class="card" style="background:var(--bg)"><span class="num">04</span><h3>Гарантия</h3><p>2 года гарантии на работы.</p></div>
   </div>
-  <p class="nt">Съёмка вне вашего города, студия и блогеры оплачиваются отдельно.</p>
 </div></section>
 
-<section style="padding-top:0"><div class="wrap">
-  <h2>Результаты на реальных продажах</h2>
-  <div class="cs">
-    <div><h3>[Название кейса: например, наушники на Kaspi]</h3><p class="sub">[Что сделали, за какой срок и с каким бюджетом. Замените на свои данные.]</p></div>
-    <div class="ns"><div><b>[000]</b><span>заявок</span></div><div><b>[0 ₸]</b><span>цена заявки</span></div><div><b>[0 млн]</b><span>оборот</span></div></div>
+<section id="otzyvy"><div class="wrap">
+  <h2>Нам доверяют</h2>
+  <p class="sub">11 лет опыта и 2 года гарантии на работы. Живые отзывы клиентов смотрите в Instagram компании.</p>
+  <div class="grid g3">
+    <div class="card rev"><span class="q">“</span><p>[Здесь будет реальный отзыв клиента]</p><b>[Имя, город]</b></div>
+    <div class="card rev"><span class="q">“</span><p>[Здесь будет реальный отзыв клиента]</p><b>[Имя, город]</b></div>
+    <div class="card rev"><span class="q">“</span><p>[Здесь будет реальный отзыв клиента]</p><b>[Имя, город]</b></div>
   </div>
+  <div class="chips"><span>Гарантия 2 года на работы</span><span>9 опытных бригад</span><span>Современное освещение</span><span>Астана и Актобе</span></div>
+  <a class="btn btn-o" style="margin-top:28px" href="https://www.instagram.com/natstroy/" target="_blank" rel="noopener">Смотреть отзывы в Instagram</a>
 </div></section>
+
+<section id="zayavka"><div class="wrap"><div class="cta">
+  <div><h2>Рассчитайте потолок</h2><p>Заполните форму, и мы свяжемся с вами в WhatsApp с расчётом.</p></div>
+  <form id="f" novalidate>
+    <div><label for="c">Город</label><select id="c"><option>Астана</option><option>Актобе</option></select></div>
+    <div><label for="r">Помещение</label><select id="r"><option>Гостиная</option><option>Спальня</option><option>Кухня</option><option>Коридор</option><option>Вся квартира</option><option>Другое</option></select></div>
+    <div><label for="a">Площадь, м²</label><input id="a" type="number" min="1" placeholder="Например, 18"></div>
+    <div><label for="l">Освещение</label><select id="l"><option>Световые линии</option><option>Парящий контур</option><option>Споты</option><option>Пока не знаю</option></select></div>
+    <div><label for="n">Имя</label><input id="n" type="text" autocomplete="name" placeholder="Ваше имя"></div>
+    <div><label for="p">Телефон</label><input id="p" type="tel" autocomplete="tel" placeholder="+7"></div>
+    <div class="full err" id="e" role="alert"></div>
+    <div class="full"><button class="btn" type="submit" style="width:100%">Получить расчёт в WhatsApp</button></div>
+  </form>
+</div></div></section>
 
 <section id="faq" style="padding-top:0"><div class="wrap">
   <h2>Частые вопросы</h2>
-  <div style="margin-top:36px;max-width:820px">
-    <details><summary>Когда будут первые заявки?</summary><p>Обычно через 3–7 дней после запуска. Первые 2–4 недели тестируем аудитории и креативы, потом усиливаем лучшее.</p></details>
-    <details><summary>Сколько нужно на рекламу?</summary><p>Для старта чаще хватает от 100 000 ₸ в месяц. Точную сумму назовём после разбора вашей ниши.</p></details>
-    <details><summary>Вы гарантируете результат?</summary><p>Мы гарантируем объём работ и прозрачную отчётность. Число заявок зависит от спроса, цены и скорости ответа клиентам, цели ставим вместе.</p></details>
-    <details><summary>Есть договор?</summary><p>Да. Состав работ, сроки и стоимость фиксируем до старта.</p></details>
+  <div style="margin-top:32px;max-width:820px">
+    <details><summary>Какая гарантия?</summary><p>2 года гарантии на работы.</p></details>
+    <details><summary>В каких городах работаете?</summary><p>В Астане и Актобе.</p></details>
+    <details><summary>Как узнать стоимость?</summary><p>Оставьте заявку: рассчитаем по площади помещения и выбранному освещению.</p></details>
   </div>
 </div></section>
-
-<section id="zayavka" style="padding-top:0"><div class="wrap"><div class="cta">
-  <div><h2>Обсудим ваш проект</h2><p>Оставьте имя и номер. Напишем в WhatsApp и пришлём разбор с идеями.</p></div>
-  <form id="f" novalidate>
-    <input id="n" type="text" placeholder="Ваше имя" autocomplete="name" aria-label="Имя">
-    <input id="p" type="tel" placeholder="Телефон" autocomplete="tel" aria-label="Телефон">
-    <select id="s" aria-label="Что нужно"><option>Таргет</option><option>Контент + таргет</option><option>Kaspi старт</option><option>Нужна консультация</option></select>
-    <div class="err" id="e" role="alert"></div>
-    <button class="btn btn-g" type="submit">Написать в WhatsApp</button>
-  </form>
-</div></div></section>
 </main>
 
-<footer><div class="wrap"><span>© 2026 Лидо. Реклама и контент в Казахстане</span><span>Instagram · TikTok · WhatsApp</span></div></footer>
+<footer><div class="wrap"><span><a href="https://www.instagram.com/natstroy/" target="_blank" rel="noopener">Instagram @natstroy</a> · Астана, Актобе</span><span>Демо-макет, не является официальным сайтом компании</span></div></footer>
 <a class="fab" id="fab" href="#zayavka" aria-label="WhatsApp">💬</a>
 
 <script>
-var WA="77053830764"; // ваш номер WhatsApp без плюса
+var WA="77026321333"; // WhatsApp компании (из открытого профиля). Замените при необходимости
 var $=function(i){return document.getElementById(i)};
-var fmt=function(n){return Math.round(n).toLocaleString("ru-RU")};
 function link(t){return "https://wa.me/"+WA+"?text="+encodeURIComponent(t)}
-$("fab").href=link("Здравствуйте! Хочу обсудить продвижение.");
+$("fab").href=link("Здравствуйте! Хочу рассчитать натяжной потолок.");
 
-// marquee
-var N=["Стоматологии","Барбершопы","Бьюти","Автосервисы","Ремонт квартир","Мебель","Интернет-магазины","Kaspi-селлеры","Кофейни","Недвижимость","Образование"];
-$("mq").innerHTML=N.concat(N).map(function(x){return "<span>"+x+"</span>"}).join("");
+// spots
+var s="";for(var y=0;y<3;y++)for(var x=0;x<5;x++){var cx=70+x*65,cy=70+y*75;s+='<circle cx="'+cx+'" cy="'+cy+'" r="11" fill="#ffd28a" opacity=".35" filter="url(#bl)"/><circle class="spot" cx="'+cx+'" cy="'+cy+'" r="4.5"/>'}
+$("sp").innerHTML=s;
 
-// hero counter + toasts
-var reduce=window.matchMedia("(prefers-reduced-motion: reduce)").matches, target=612;
-if(reduce){$("cnt").textContent=target}else{
-  var t0=null;(function step(t){if(!t0)t0=t;var k=Math.min((t-t0)/2200,1);$("cnt").textContent=Math.round(target*(1-Math.pow(1-k,3)));if(k<1)requestAnimationFrame(step)})(performance.now());
-  var M=["Заявка: замер потолка","Заявка: запись на консультацию","Заказ: наушники, Алматы","Заявка: стоимость ремонта","Заявка: кухня на заказ"],i=0;
-  setInterval(function(){$("tt").textContent=M[i++%M.length];$("toast").classList.add("on");setTimeout(function(){$("toast").classList.remove("on")},2600)},4200);
-}
+// configurator
+var sv=$("sv");
+document.querySelectorAll(".ctl [data-m]").forEach(function(b){b.addEventListener("click",function(){
+  sv.setAttribute("data-mode",b.dataset.m);
+  document.querySelectorAll(".ctl [data-m]").forEach(function(x){x.setAttribute("aria-pressed",x===b)});
+  sv.classList.remove("off");$("pw").setAttribute("aria-pressed","true");$("pw").textContent="Свет вкл";
+})});
+$("pw").addEventListener("click",function(){
+  var off=sv.classList.toggle("off");this.setAttribute("aria-pressed",!off);this.textContent=off?"Свет выкл":"Свет вкл";
+});
 
-// calculator
-function calc(){
-  var b=+$("bud").value,c=+$("nic").value,ch=+$("chk").value||0;
-  var l=b/c,s=l*.25;
-  $("bo").textContent=fmt(b)+" ₸";$("rl").textContent="≈ "+fmt(l);$("rs").textContent="≈ "+fmt(s);$("rr").textContent="≈ "+fmt(s*ch)+" ₸";
-}
-["bud","nic","chk"].forEach(function(i){$(i).addEventListener("input",calc)});calc();
-
-// packs + form
-document.querySelectorAll("[data-pack]").forEach(function(a){a.addEventListener("click",function(){$("s").value=a.dataset.pack})});
+// form
 $("f").addEventListener("submit",function(ev){
   ev.preventDefault();
   var n=$("n").value.trim(),p=$("p").value.trim();
   if(!n||p.replace(/\D/g,"").length<10){$("e").textContent="Укажите имя и телефон полностью.";return}
   $("e").textContent="";
-  var a=document.createElement("a");a.href=link("Здравствуйте! Меня зовут "+n+", тел. "+p+". Интересует: "+$("s").value+".");
-  a.target="_blank";a.rel="noopener";document.body.appendChild(a);a.click();a.remove();
+  var m="Здравствуйте! Меня зовут "+n+", тел. "+p+". Хочу рассчитать потолок: город "+$("c").value+", помещение: "+$("r").value+($("a").value?", площадь "+$("a").value+" м²":"")+", освещение: "+$("l").value+".";
+  var a=document.createElement("a");a.href=link(m);a.target="_blank";a.rel="noopener";document.body.appendChild(a);a.click();a.remove();
 });
+// до/после, появление блоков, счётчики, 3D-наклон
+(function(){
+ var red=window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+ var ba=$("ba"),br=$("bar");
+ br.addEventListener("input",function(){ba.style.setProperty("--p",br.value+"%")});
+ if("IntersectionObserver" in window){
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{threshold:.12});
+  document.querySelectorAll(".card,.shot,.rev,.ba,.chips span,.stats div,details").forEach(function(el){el.classList.add("rv");io.observe(el)});
+  var so=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;so.disconnect();document.querySelectorAll("[data-n]").forEach(function(i){var n=+i.dataset.n;if(red){i.textContent=n;return}var t0=null;(function st(t){if(!t0)t0=t;var k=Math.min((t-t0)/1200,1);i.textContent=Math.round(n*k);if(k<1)requestAnimationFrame(st)})(performance.now())})})},{threshold:.4});
+  so.observe(document.querySelector(".stats"));
+ }
+ var rm=document.querySelector(".room");
+ if(!red&&rm){rm.addEventListener("pointermove",function(e){var r=rm.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;rm.style.transform="rotateY("+(x*10)+"deg) rotateX("+(-y*8)+"deg)"});rm.addEventListener("pointerleave",function(){rm.style.transform=""})}
+})();
 </script>
 </body>
 </html>
