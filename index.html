@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Лидо — реклама и контент, после которых пишут в WhatsApp</title>
+<meta name="description" content="Таргет в Instagram и TikTok, Reels и Kaspi для бизнеса в Казахстане. Считаем заявки, а не лайки.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f3f4f1; --card:#ffffff; --ink:#121316; --mute:#62656d; --line:#e1e3de;
+  --g:#14d36f; --gd:#07803f; --dark:#101214; --dk-ink:#f2f4f1;
+  --f:"Onest",system-ui,Arial,sans-serif;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px); color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d0f10;--card:#16191b;--ink:#f2f4f1;--mute:#9aa09c;--line:#262a2d;--gd:#14d36f;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0d0f10;--card:#16191b;--ink:#f2f4f1;--mute:#9aa09c;--line:#262a2d;--gd:#14d36f;color-scheme:dark}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 76px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.55 var(--f);-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:60}
+a{color:inherit}p{margin:0}
+h1,h2,h3{margin:0;font-weight:800;letter-spacing:-.03em;line-height:1.05}
+.wrap{width:min(1180px,100% - 40px);margin-inline:auto}
+:focus-visible{outline:3px solid var(--g);outline-offset:3px;border-radius:8px}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:16px 28px;border-radius:14px;font:700 16px var(--f);text-decoration:none;border:0;cursor:pointer;transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn-g{background:var(--g);color:#05200f}
+.btn-g:hover{box-shadow:0 10px 30px rgba(20,211,111,.4)}
+.btn-k{background:var(--ink);color:var(--bg)}
+.btn-o{border:2px solid var(--ink);background:transparent}
+
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{height:68px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-weight:800;font-size:22px;text-decoration:none;letter-spacing:-.04em}
+.logo i{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--g);margin-left:3px}
+nav ul{display:flex;gap:28px;list-style:none;margin:0;padding:0;font-weight:500;font-size:15px}
+nav a{text-decoration:none;color:var(--mute)}nav a:hover{color:var(--ink)}
+.nav .btn{padding:11px 20px;font-size:14px;border-radius:11px}
+@media(max-width:860px){nav ul{display:none}}
+
+/* hero */
+.hero{padding:64px 0 56px}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+.hero h1{font-size:clamp(40px,6.4vw,84px)}
+.hero .lead{margin:26px 0 34px;font-size:19px;color:var(--mute);max-width:46ch}
+.hero .row{display:flex;flex-wrap:wrap;gap:12px}
+.live{display:inline-flex;align-items:center;gap:10px;font-size:14px;font-weight:700;padding:7px 14px;border:1px solid var(--line);border-radius:99px;background:var(--card);margin-bottom:26px}
+.live b{width:9px;height:9px;border-radius:50%;background:var(--g);animation:pulse 1.6s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(20,211,111,.6)}100%{box-shadow:0 0 0 12px rgba(20,211,111,0)}}
+.dash{background:var(--dark);color:var(--dk-ink);border-radius:28px;padding:26px;position:relative;box-shadow:0 40px 80px -20px rgba(0,0,0,.45)}
+.dash .top{display:flex;justify-content:space-between;font-size:13px;color:#8d948f;font-weight:500}
+.big{font-size:clamp(56px,8vw,92px);font-weight:800;letter-spacing:-.05em;line-height:1;margin:14px 0 2px;color:var(--g)}
+.dash .cap{font-size:14px;color:#8d948f}
+.dash svg{width:100%;height:120px;margin:18px 0 8px;display:block}
+.path{fill:none;stroke:var(--g);stroke-width:3;stroke-linecap:round;stroke-dasharray:700;stroke-dashoffset:700;animation:draw 2.2s .3s ease-out forwards}
+.area{fill:url(#ag);opacity:0;animation:fadein 1s 1.6s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}@keyframes fadein{to{opacity:1}}
+.kp{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kp div{background:#1b1e20;border-radius:14px;padding:12px 14px}
+.kp b{display:block;font-size:22px;letter-spacing:-.03em}.kp span{font-size:12.5px;color:#8d948f}
+.toast{position:absolute;left:-28px;bottom:-26px;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:16px;padding:12px 16px;font-size:14px;box-shadow:0 20px 40px -10px rgba(0,0,0,.3);display:flex;gap:10px;align-items:center;opacity:0;transform:translateY(12px);transition:.5s}
+.toast.on{opacity:1;transform:none}
+.toast i{width:34px;height:34px;border-radius:50%;background:var(--g);display:grid;place-items:center;font-style:normal;color:#05200f}
+.toast small{display:block;color:var(--mute);font-size:12px}
+@media(max-width:940px){.hero .wrap{grid-template-columns:1fr}.toast{left:10px}}
+.demo{font-size:12.5px;color:var(--mute);margin-top:34px}
+
+/* marquee */
+.mq{border-block:1px solid var(--line);overflow:hidden;padding:18px 0;background:var(--card)}
+.mq div{display:flex;gap:44px;width:max-content;animation:mq 34s linear infinite;font-weight:700;font-size:20px;letter-spacing:-.02em;white-space:nowrap}
+.mq span::after{content:"●";color:var(--g);margin-left:44px;font-size:12px}
+@keyframes mq{to{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.mq div,.path,.live b{animation:none}.path{stroke-dashoffset:0}.area{opacity:1;animation:none}html{scroll-behavior:auto}}
+
+section{padding:96px 0}
+h2{font-size:clamp(32px,4.6vw,56px);max-width:16ch}
+.sub{color:var(--mute);margin-top:16px;max-width:54ch;font-size:18px}
+.bento{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:48px}
+.b{background:var(--card);border:1px solid var(--line);border-radius:26px;padding:30px;min-height:230px;display:flex;flex-direction:column;justify-content:space-between}
+.b h3{font-size:26px}.b p{color:var(--mute);margin-top:12px;font-size:16px}
+.b.w2{grid-column:span 2}
+.b.dk{background:var(--dark);color:var(--dk-ink);border-color:var(--dark)}.b.dk p{color:#9aa09c}
+.b.gr{background:var(--g);color:#05200f;border-color:var(--g)}.b.gr p{color:#0b3a1e}
+.b .em{font-size:44px;line-height:1}
+@media(max-width:940px){.bento{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.bento{grid-template-columns:1fr}.b.w2{grid-column:auto}section{padding:68px 0}}
+
+/* calc */
+.calc{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:48px}
+.cp,.cr{border-radius:26px;padding:34px}
+.cp{background:var(--card);border:1px solid var(--line);display:grid;gap:24px;align-content:start}
+.cr{background:var(--dark);color:var(--dk-ink)}
+label{font-weight:700;font-size:15px;display:flex;justify-content:space-between;margin-bottom:10px}
+label output{color:var(--gd)}
+input[type=range]{width:100%;accent-color:var(--g);height:28px}
+select,input[type=number],input[type=text],input[type=tel]{width:100%;padding:15px 16px;border-radius:12px;border:2px solid var(--line);background:var(--bg);color:var(--ink);font:500 16px var(--f)}
+select:focus,input:focus{border-color:var(--g);outline:none}
+.cr .l{color:#8d948f;font-size:14px}.cr .n{font-size:clamp(44px,6vw,72px);font-weight:800;letter-spacing:-.04em;color:var(--g);line-height:1.05;margin-bottom:22px}
+.cr .n.s{font-size:34px;color:var(--dk-ink)}
+.cr small{display:block;color:#8d948f;font-size:12.5px;margin-top:10px}
+@media(max-width:860px){.calc{grid-template-columns:1fr}}
+
+/* process */
+.pr{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:52px;border-top:2px solid var(--ink)}
+.pr div{padding:26px 24px 0 0}
+.pr em{font-style:normal;font-weight:800;font-size:15px;color:var(--gd)}
+.pr h3{font-size:22px;margin:10px 0}.pr p{color:var(--mute);font-size:15.5px}
+@media(max-width:860px){.pr{grid-template-columns:1fr 1fr}}@media(max-width:560px){.pr{grid-template-columns:1fr}}
+
+/* price */
+.pl{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:48px}
+.pk{background:var(--card);border:1px solid var(--line);border-radius:26px;padding:32px;display:flex;flex-direction:column}
+.pk.hot{background:var(--dark);color:var(--dk-ink);border-color:var(--dark);transform:translateY(-10px)}
+.pk h3{font-size:24px}.pk .a{font-size:44px;font-weight:800;letter-spacing:-.04em;margin:16px 0 4px}.pk .a small{font-size:15px;font-weight:500;color:var(--mute);letter-spacing:0}
+.pk ul{list-style:none;padding:0;margin:22px 0 28px;display:grid;gap:11px;flex:1;font-size:16px}
+.pk li::before{content:"✓";color:var(--gd);font-weight:800;margin-right:10px}.pk.hot li::before{color:var(--g)}
+.bd{align-self:flex-start;background:var(--g);color:#05200f;font-weight:700;font-size:13px;padding:5px 12px;border-radius:99px;margin-bottom:12px}
+.pk.hot .btn{background:var(--g);color:#05200f}
+.nt{color:var(--mute);font-size:14.5px;margin-top:22px}
+@media(max-width:940px){.pl{grid-template-columns:1fr}.pk.hot{transform:none}}
+
+/* case */
+.cs{margin-top:48px;border:2px dashed var(--g);border-radius:26px;padding:36px;display:grid;grid-template-columns:1.2fr 1fr;gap:32px;align-items:center}
+.cs h3{font-size:26px}.cs .sub{font-size:16px}
+.ns{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.ns div{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px 10px;text-align:center}
+.ns b{display:block;font-size:30px;letter-spacing:-.04em;color:var(--gd)}.ns span{font-size:13px;color:var(--mute)}
+@media(max-width:860px){.cs{grid-template-columns:1fr}}
+
+details{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:0 26px;margin-top:12px}
+summary{cursor:pointer;font-weight:700;font-size:18px;padding:22px 0;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::after{content:"+";font-size:26px;line-height:1;color:var(--gd);transition:transform .2s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{padding-bottom:22px;color:var(--mute)}
+
+.cta{background:var(--dark);color:var(--dk-ink);border-radius:34px;padding:60px;display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+.cta h2{max-width:12ch}.cta p{color:#9aa09c;margin-top:16px;font-size:18px}
+.cta form{display:grid;gap:14px}
+.cta input,.cta select{background:#1b1e20;border-color:#2a2e31;color:var(--dk-ink)}
+.err{color:#ff8f8f;font-size:14px;min-height:18px}
+@media(max-width:860px){.cta{grid-template-columns:1fr;padding:34px 24px}}
+footer{padding:36px 0 64px;color:var(--mute);font-size:14.5px;border-top:1px solid var(--line)}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
+.fab{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:55;width:60px;height:60px;border-radius:50%;background:var(--g);display:grid;place-items:center;font-size:28px;text-decoration:none;box-shadow:0 10px 30px rgba(20,211,111,.5)}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="logo" href="#top">лидо<i></i></a>
+  <nav aria-label="Меню"><ul><li><a href="#uslugi">Услуги</a></li><li><a href="#calc">Калькулятор</a></li><li><a href="#process">Процесс</a></li><li><a href="#tarify">Цены</a></li><li><a href="#faq">Вопросы</a></li></ul></nav>
+  <a class="btn btn-k" href="#zayavka">Бесплатный разбор</a>
+</div></header>
+
+<main id="top">
+<div class="hero"><div class="wrap">
+  <div>
+    <div class="live"><b></b>Сейчас берём 3 новых проекта</div>
+    <h1>Реклама, после которой пишут в WhatsApp</h1>
+    <p class="lead">Снимаем Reels, запускаем таргет в Instagram и TikTok, настраиваем Kaspi. Считаем заявки и их цену, а не лайки.</p>
+    <div class="row"><a class="btn btn-g" href="#zayavka">Получить разбор проекта</a><a class="btn btn-o" href="#calc">Посчитать заявки</a></div>
+    <p class="demo">Справа пример рекламного кабинета. Реальные цифры добавьте в блок кейса ниже.</p>
+  </div>
+  <div class="dash" aria-label="Пример рекламного кабинета">
+    <div class="top"><span>Заявки за 30 дней</span><span>Instagram · TikTok</span></div>
+    <div class="big" id="cnt">0</div>
+    <div class="cap">обращений в WhatsApp и Direct</div>
+    <svg viewBox="0 0 400 120" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="ag" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14d36f" stop-opacity=".35"/><stop offset="1" stop-color="#14d36f" stop-opacity="0"/></linearGradient></defs>
+    <path class="area" d="M0 105 C40 100 60 90 90 85 S150 70 180 62 S240 55 270 36 S340 24 400 8 L400 120 L0 120Z"/>
+    <path class="path" d="M0 105 C40 100 60 90 90 85 S150 70 180 62 S240 55 270 36 S340 24 400 8"/></svg>
+    <div class="kp"><div><b>1 150 ₸</b><span>цена заявки</span></div><div><b>×4,2</b><span>окупаемость рекламы</span></div></div>
+    <div class="toast" id="toast"><i>✓</i><div><span id="tt">Новая заявка</span><small id="ts">только что</small></div></div>
+  </div>
+</div></div>
+
+<div class="mq" aria-hidden="true"><div id="mq"></div></div>
+
+<section id="uslugi"><div class="wrap">
+  <h2>Что делаем для вашего бизнеса</h2>
+  <p class="sub">Берите всё сразу или одну услугу. Объём и цену фиксируем до старта.</p>
+  <div class="bento">
+    <div class="b w2 dk"><div class="em">🎯</div><div><h3>Таргет в Instagram и TikTok</h3><p>Оффер, креативы, запуск и оптимизация по цене заявки. Каждую неделю показываем, куда ушёл бюджет и что он принёс.</p></div></div>
+    <div class="b"><div class="em">🎬</div><div><h3>Reels и контент</h3><p>Сценарий, съёмка, монтаж. Ролики, которые продают.</p></div></div>
+    <div class="b gr"><div class="em">🛒</div><div><h3>Kaspi.kz</h3><p>Карточки, фото и реклама для селлеров.</p></div></div>
+    <div class="b"><div class="em">🔍</div><div><h3>Разбор и аудит</h3><p>Находим, где вы теряете клиентов.</p></div></div>
+    <div class="b w2"><div class="em">📲</div><div><h3>Заявки в WhatsApp и CRM</h3><p>Настраиваем быстрые ответы и учёт обращений, чтобы ни одна заявка не потерялась после клика.</p></div></div>
+    <div class="b"><div class="em">📊</div><div><h3>Отчёты</h3><p>Заявки, цена и следующий шаг. Раз в неделю.</p></div></div>
+  </div>
+</div></section>
+
+<section id="calc" style="padding-top:0"><div class="wrap">
+  <h2>Сколько заявок вы можете получить</h2>
+  <p class="sub">Прикиньте результат под свой бюджет. Это ориентир по средним ценам заявки в Казахстане, точный расчёт сделаем после разбора.</p>
+  <div class="calc">
+    <div class="cp">
+      <div><label for="bud">Рекламный бюджет в месяц <output id="bo"></output></label><input id="bud" type="range" min="50000" max="1000000" step="10000" value="200000"></div>
+      <div><label for="nic">Ниша</label><select id="nic"><option value="1500">Услуги и ремонт</option><option value="1200">Бьюти и клиники</option><option value="700">Интернет-магазин</option><option value="1800">Образование и курсы</option><option value="2500">Недвижимость</option></select></div>
+      <div><label for="chk">Средний чек, ₸</label><input id="chk" type="number" value="25000" min="1000" step="1000"></div>
+    </div>
+    <div class="cr">
+      <div class="l">Заявок в месяц</div><div class="n" id="rl">0</div>
+      <div class="l">Продаж, если закрываете 25% заявок</div><div class="n s" id="rs">0</div>
+      <div class="l">Выручка</div><div class="n s" id="rr">0 ₸</div>
+      <small>Расчёт примерный. Результат зависит от оффера, цены и скорости ответа клиентам.</small>
+      <a class="btn btn-g" style="margin-top:20px" href="#zayavka">Получить точный расчёт</a>
+    </div>
+  </div>
+</div></section>
+
+<section id="process" style="background:var(--card)"><div class="wrap">
+  <h2>Как проходит работа</h2>
+  <div class="pr">
+    <div><em>Шаг 1</em><h3>Разбор</h3><p>Бесплатно смотрим продукт, аудиторию, конкурентов и текущую рекламу.</p></div>
+    <div><em>Шаг 2</em><h3>Договор</h3><p>Фиксируем объём работ, сроки, цену и показатели.</p></div>
+    <div><em>Шаг 3</em><h3>Запуск</h3><p>Снимаем креативы и запускаем рекламу. Заявки обычно через 3–7 дней.</p></div>
+    <div><em>Шаг 4</em><h3>Рост</h3><p>Раз в неделю отчёт. Усиливаем то, что приносит заявки.</p></div>
+  </div>
+</div></section>
+
+<section id="tarify"><div class="wrap">
+  <h2>Цены и пакеты</h2>
+  <p class="sub">Рекламный бюджет платите напрямую в кабинет Meta или TikTok, он не входит в стоимость.</p>
+  <div class="pl">
+    <div class="pk"><h3>Таргет</h3><div class="a">150 000 ₸ <small>/ мес</small></div><p>Заявки уже сейчас.</p><ul><li>Анализ ниши и оффер</li><li>5–6 рекламных креативов</li><li>Запуск Instagram или TikTok</li><li>Еженедельный отчёт</li></ul><a class="btn btn-o" href="#zayavka" data-pack="Таргет">Выбрать</a></div>
+    <div class="pk hot"><span class="bd">Выбирают чаще</span><h3>Контент + таргет</h3><div class="a">300 000 ₸ <small>/ мес</small></div><p style="color:#9aa09c">Контент и реклама на одну цель.</p><ul><li>12 Reels и 8 постов в месяц</li><li>Сценарии, съёмка, монтаж</li><li>Таргет Instagram и TikTok</li><li>Оптимизация по цене заявки</li></ul><a class="btn" href="#zayavka" data-pack="Контент + таргет">Выбрать</a></div>
+    <div class="pk"><h3>Kaspi старт</h3><div class="a">120 000 ₸ <small>разово</small></div><p>Для селлеров на Kaspi.</p><ul><li>До 10 карточек товара</li><li>Фото, описания, ключевые слова</li><li>Цены и акции</li><li>План рекламы внутри Kaspi</li></ul><a class="btn btn-o" href="#zayavka" data-pack="Kaspi старт">Выбрать</a></div>
+  </div>
+  <p class="nt">Съёмка вне вашего города, студия и блогеры оплачиваются отдельно.</p>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <h2>Результаты на реальных продажах</h2>
+  <div class="cs">
+    <div><h3>[Название кейса: например, наушники на Kaspi]</h3><p class="sub">[Что сделали, за какой срок и с каким бюджетом. Замените на свои данные.]</p></div>
+    <div class="ns"><div><b>[000]</b><span>заявок</span></div><div><b>[0 ₸]</b><span>цена заявки</span></div><div><b>[0 млн]</b><span>оборот</span></div></div>
+  </div>
+</div></section>
+
+<section id="faq" style="padding-top:0"><div class="wrap">
+  <h2>Частые вопросы</h2>
+  <div style="margin-top:36px;max-width:820px">
+    <details><summary>Когда будут первые заявки?</summary><p>Обычно через 3–7 дней после запуска. Первые 2–4 недели тестируем аудитории и креативы, потом усиливаем лучшее.</p></details>
+    <details><summary>Сколько нужно на рекламу?</summary><p>Для старта чаще хватает от 100 000 ₸ в месяц. Точную сумму назовём после разбора вашей ниши.</p></details>
+    <details><summary>Вы гарантируете результат?</summary><p>Мы гарантируем объём работ и прозрачную отчётность. Число заявок зависит от спроса, цены и скорости ответа клиентам, цели ставим вместе.</p></details>
+    <details><summary>Есть договор?</summary><p>Да. Состав работ, сроки и стоимость фиксируем до старта.</p></details>
+  </div>
+</div></section>
+
+<section id="zayavka" style="padding-top:0"><div class="wrap"><div class="cta">
+  <div><h2>Обсудим ваш проект</h2><p>Оставьте имя и номер. Напишем в WhatsApp и пришлём разбор с идеями.</p></div>
+  <form id="f" novalidate>
+    <input id="n" type="text" placeholder="Ваше имя" autocomplete="name" aria-label="Имя">
+    <input id="p" type="tel" placeholder="Телефон" autocomplete="tel" aria-label="Телефон">
+    <select id="s" aria-label="Что нужно"><option>Таргет</option><option>Контент + таргет</option><option>Kaspi старт</option><option>Нужна консультация</option></select>
+    <div class="err" id="e" role="alert"></div>
+    <button class="btn btn-g" type="submit">Написать в WhatsApp</button>
+  </form>
+</div></div></section>
+</main>
+
+<footer><div class="wrap"><span>© 2026 Лидо. Реклама и контент в Казахстане</span><span>Instagram · TikTok · WhatsApp</span></div></footer>
+<a class="fab" id="fab" href="#zayavka" aria-label="WhatsApp">💬</a>
+
+<script>
+var WA="77000000000"; // ваш номер WhatsApp без плюса
+var $=function(i){return document.getElementById(i)};
+var fmt=function(n){return Math.round(n).toLocaleString("ru-RU")};
+function link(t){return "https://wa.me/"+WA+"?text="+encodeURIComponent(t)}
+$("fab").href=link("Здравствуйте! Хочу обсудить продвижение.");
+
+// marquee
+var N=["Стоматологии","Барбершопы","Бьюти","Автосервисы","Ремонт квартир","Мебель","Интернет-магазины","Kaspi-селлеры","Кофейни","Недвижимость","Образование"];
+$("mq").innerHTML=N.concat(N).map(function(x){return "<span>"+x+"</span>"}).join("");
+
+// hero counter + toasts
+var reduce=window.matchMedia("(prefers-reduced-motion: reduce)").matches, target=612;
+if(reduce){$("cnt").textContent=target}else{
+  var t0=null;(function step(t){if(!t0)t0=t;var k=Math.min((t-t0)/2200,1);$("cnt").textContent=Math.round(target*(1-Math.pow(1-k,3)));if(k<1)requestAnimationFrame(step)})(performance.now());
+  var M=["Заявка: замер потолка","Заявка: запись на консультацию","Заказ: наушники, Алматы","Заявка: стоимость ремонта","Заявка: кухня на заказ"],i=0;
+  setInterval(function(){$("tt").textContent=M[i++%M.length];$("toast").classList.add("on");setTimeout(function(){$("toast").classList.remove("on")},2600)},4200);
+}
+
+// calculator
+function calc(){
+  var b=+$("bud").value,c=+$("nic").value,ch=+$("chk").value||0;
+  var l=b/c,s=l*.25;
+  $("bo").textContent=fmt(b)+" ₸";$("rl").textContent="≈ "+fmt(l);$("rs").textContent="≈ "+fmt(s);$("rr").textContent="≈ "+fmt(s*ch)+" ₸";
+}
+["bud","nic","chk"].forEach(function(i){$(i).addEventListener("input",calc)});calc();
+
+// packs + form
+document.querySelectorAll("[data-pack]").forEach(function(a){a.addEventListener("click",function(){$("s").value=a.dataset.pack})});
+$("f").addEventListener("submit",function(ev){
+  ev.preventDefault();
+  var n=$("n").value.trim(),p=$("p").value.trim();
+  if(!n||p.replace(/\D/g,"").length<10){$("e").textContent="Укажите имя и телефон полностью.";return}
+  $("e").textContent="";
+  var a=document.createElement("a");a.href=link("Здравствуйте! Меня зовут "+n+", тел. "+p+". Интересует: "+$("s").value+".");
+  a.target="_blank";a.rel="noopener";document.body.appendChild(a);a.click();a.remove();
+});
+</script>
+</body>
+</html>
